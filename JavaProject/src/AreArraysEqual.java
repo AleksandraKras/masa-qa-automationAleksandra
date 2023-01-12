@@ -29,7 +29,7 @@ public class AreArraysEqual {
         public static void main(String[] args)
         {
             String[] a1 = { "A", "B", "C" };
-            String[] a2 = { "A", "B", "C" };
+            String[] a2 = { "A", "B", "D" };
 
             if (AreArraysEqual(a1, a2)) {
                 System.out.println("Both arrays are equal");
